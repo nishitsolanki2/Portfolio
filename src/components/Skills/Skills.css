@@ -1,0 +1,84 @@
+#skills {
+  margin: 1rem auto;
+  width: 100vw;
+  max-width: 65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.skillsTitle {
+  font-size: 3rem;
+}
+
+.skillsDesc {
+  width: 100vw;
+  max-width: 55rem;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: medium;
+  font-weight: 300;
+  text-align: center;
+}
+
+.skillsText {
+  width: 100vw;
+  max-width: 55rem;
+  margin: 1rem;
+  font-size: medium;
+  font-weight: 300;
+  text-align: left;
+}
+
+.skillsBars {
+  width: 100vw;
+  max-width: 55rem;
+  margin: 0 2rem;
+}
+
+.skillsBar {
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  background-color: rgb(40, 40, 40);
+}
+
+.skillImg {
+  object-fit: cover;
+  height: 4rem;
+  width: 4rem;
+  margin: 1rem;
+}
+@media screen and (max-width: 720px) {
+  .skillsText > p {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skillsText > p {
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skillsDesc > p {
+    font-size: 3vw;
+  }
+  .skillImg {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+  .skillsText > p {
+    font-size: 3vw;
+  }
+
+  .skillsText > h2 {
+    font-size: 5vw;
+  }
+}
