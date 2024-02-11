@@ -21,7 +21,8 @@ const Intro = () => {
           <br /> visually appealing and user friendly websites.
         </p>
         <Link>
-          <button className="btn"  onClick={() => {
+          <button className="btn"  
+    onClick={() => {
               document
                 .getElementById("contact")
                 .scrollIntoView({ behavior: "smooth" });
