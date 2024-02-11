@@ -21,7 +21,14 @@ const Intro = () => {
           <br /> visually appealing and user friendly websites.
         </p>
         <Link>
-          <button className="btn">
+          <button
+            className="btn"
+            onClick={() => {
+              document
+                .getElementById("contact")
+                .scrollIntoView({ behavior: "smooth" });
+            }}
+          >
             <img src={btnImg} alt="Hire Me" className="btnImg" />
             Hire Me
           </button>
